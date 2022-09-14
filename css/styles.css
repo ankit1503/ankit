@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+html,body{
+    overflow-x: hidden;
+}
 body
 {
     margin: 0;
@@ -14,6 +17,11 @@ a{
     text-decoration: none;
 
 
+}
+.mountain
+{
+    text-align: center;
+    position: absolute;
 }
 a:hover
 {
@@ -85,6 +93,7 @@ h3{
     position: relative;
     padding-top: 100px;
    
+   
 }
 .bottom-cloud
 {
@@ -95,7 +104,7 @@ h3{
 .top-cloud
 {
     position: absolute;
-    right:300px;
+    right:250px;
     top:50px;
 
 }
